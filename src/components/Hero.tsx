@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { ArrowRight, Palette, Image, Droplet, ColorPicker } from 'lucide-react';
+import { ArrowRight, Palette, Image, Droplet, PaintBucket } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
 
@@ -28,7 +28,7 @@ const Hero = () => {
         <Palette size={32} />
       </div>
       <div className="absolute bottom-32 right-20 text-navy/30 -rotate-12">
-        <ColorPicker size={28} />
+        <PaintBucket size={28} />
       </div>
       <div className="absolute top-64 right-32 text-gold/20">
         <Droplet size={24} />
